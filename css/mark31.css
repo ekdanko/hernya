@@ -14,6 +14,34 @@ div {
     align-items: center;
     background: #ccc;
 }
+
+.content_rec{
+	display: block;
+	margin: 0 auto;
+}
+
+.first_angle{
+	display: inline-block;
+	margin: 10px;
+}
+.second_angle{
+	display: inline-block;
+	margin: 10px;
+}
+.third_angle{
+
+	display: block;
+	margin: 10px;
+	
+}
+.fourth_angle{
+	display: inline-block;
+	margin: 10px;
+}
+.second_angle > .m4{
+	margin-left:10px;
+}
+
 .f1{
 	width: 200px;
 	height: 200px;
@@ -95,24 +123,3 @@ div {
 	
 }
 
-.first_angle{
-	display: block;
-	margin: 10px;
-}
-.second_angle{
-	display: inline-block;
-	margin: 10px;
-}
-.third_angle{
-
-	display: block;
-	margin: 10px;
-	
-}
-.fourth_angle{
-	display: inline-block;
-	margin: 10px;
-}
-.second_angle > .m4{
-	margin-left:10px;
-}
